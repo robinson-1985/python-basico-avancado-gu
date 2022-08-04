@@ -9,7 +9,7 @@ Em Python, string é tudo que estiver entre:
 - Aspas simples triplas;
 - Aspas duplas triplas;
 
-Exemplos: 
+Exemplos:
 
 - aspas simples: 'Angelina Jolie'
 - aspas duplas: "Angelina Jolie"
@@ -38,14 +38,14 @@ print(f"Seja bem vindo(a) {nome}")
 
 idade = input("Qual a sua idade? ")
 
-#processamento
+# processamento
 
 # Saída de dados
 # Exemplo de print antigo 2.x
 # print("O(A) %s tem %s anos" % (nome, idade))
 
 # Exemplo de print moderno 3.x
-#print("O(A) {0} tem {1} anos".format (nome, idade))
+# print("O(A) {0} tem {1} anos".format (nome, idade))
 
 # Exemplo de print mais atual
 print(f"O(A) {nome} tem {idade} anos")
@@ -53,7 +53,7 @@ print(f"O(A) {nome} tem {idade} anos")
 '''
 int(idade) => cast
 
-Cast é a 'conversão' de um tipo de dado para outro. 
+Cast é a 'conversão' de um tipo de dado para outro.
 
 '''
-print(f"O(A) {nome} nasceu em {2022 -  int(idade)}") 
+print(f"O(A) {nome} nasceu em {2022 -  int(idade)}")
